@@ -1,0 +1,40 @@
+.jodit-container:not(.jodit_inline) {
+    --jd-color-background-default: #171d25;
+    --jd-color-border: rgba(255, 255, 255, .12);
+    --jd-color-text: #f3f4f2;
+    --jd-color-text-icons: #a5adb5;
+    --jd-color-panel: #1d252e;
+    --jd-color-button-background-hover: #242d37;
+    --jd-color-button-background: #171d25;
+    --jd-color-button-text: #f3f4f2;
+    --jd-color-button-text-hover: #10b981;
+    border-color: rgba(255,255,255,.12) !important;
+    border-radius: 0 !important;
+    background: #171d25 !important;
+    color: #f3f4f2 !important;
+    font-family: Manrope, sans-serif;
+}
+
+.jodit-container .jodit-toolbar__box,
+.jodit-container .jodit-workplace,
+.jodit-container .jodit-status-bar {
+    border-color: rgba(255,255,255,.1) !important;
+    background: #171d25 !important;
+}
+
+.jodit-container .jodit-toolbar-button__button,
+.jodit-container .jodit-toolbar-button__trigger {
+    color: #c7cbd0 !important;
+}
+
+.jodit-container .jodit-toolbar-button__button:hover,
+.jodit-container .jodit-toolbar-button__trigger:hover {
+    color: #10b981 !important;
+}
+
+.jodit-container .jodit-wysiwyg {
+    background: #171d25 !important;
+    color: #f3f4f2 !important;
+    font-family: Manrope, sans-serif;
+    line-height: 1.7;
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Sitemap: https://ryodigitalmalang.my-id.id/sitemap.xml
